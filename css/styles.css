@@ -1,0 +1,174 @@
+:root {
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
+--accent-color: #2196F3;
+
+--primary-background-color: #FFFFFF;
+--secondary-background-color: #2F303A;
+
+--white-color:#FFFFFF;
+--mainbutton-bcg-color:#188CE8;
+--button-bcg-color: #F5F4FA;
+}
+
+/* Загальні стилі */
+.page {
+background-color: var(--primary-background-color);
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;}
+
+.list {list-style: none;}
+.link {color: var(--primary-text-color);}
+.link {text-decoration: none;}
+
+/* !!!!!! Потрібно буде приховати іншим способом в наступнних уроках */
+.invisible-title {color: #FFFFFF;}
+
+/* Шапка сайту */
+
+.logo, .logo-footer {
+font-family: Raleway, sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.2;
+
+color: #000000;}
+.logo:focus,
+.logo:hover
+{color:var(--accent-color)}
+.logoheader {color: var(--accent-color);}
+.header-contacts {color: var(--secondary-text-color)}
+
+
+/* Панель навігації */
+
+.navigation {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;}
+
+.current {color: var(--accent-text-color)}
+.site-nav .link:hover, 
+.site-nav .link:focus {color: var(--accent-color)}
+.contacts .link:hover,
+.contacts .link:focus {color: var(--accent-color)}
+
+
+/* ------Стилі для index.html------- */
+
+
+/* Секція Герой */
+
+.hero {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+
+background-color: var(--secondary-background-color);
+color: var(--white-color);}
+
+.hero-button {
+font-family:inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+
+color: var(--white-color);
+background-color: var(--mainbutton-bcg-color);}
+
+/* Секція переваг */
+
+.features-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+ 
+color: var(--primary-text-color);}
+
+.features-text, .footer-section { 
+font-size: 14px;
+line-height: 1.71;
+  
+color: var(--secondary-text-color);}
+
+/* Заголовки  */
+.our-product-title, .our-team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+
+color: var(--primary-text-color);}
+
+/* Секція імен працівників */
+.team-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+
+color: var(--primary-text-color);}
+
+/* Секція професій працівників */
+.team-profession{
+font-size: 16px;
+line-height: 1.18;
+
+color: var(--secondary-text-color);}
+
+
+/* ------Стилі для portfolio.html------- */
+
+
+/* Кнопки категорій портфоліо */
+.btn {
+font-family:inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+
+color: var(--primary-text-color);
+background-color: var(--button-bcg-color);
+cursor: pointer;}
+
+.btn:hover,
+.btn:focus
+{color: var(--white-color);
+background-color: var(--accent-color);}
+
+
+/* Портфоліо */
+
+.portfolio-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em; 
+color: var(--primary-text-color);}
+
+.portfolio-category {
+font-size: 16px;
+line-height: 1.87;
+ 
+color: var(--secondary-text-color);}
+
+
+/* Футер */
+
+.footer-section {
+background-color: var(--secondary-background-color);}
+
+.logo-footer.link:hover,
+.logo-footer.link:focus 
+{color: var(--accent-color);}
+
+.footer-address-list {font-style: normal;}
+.logo-footer, .footer-address {color: var(--white-color);}
+.footer-contacts {color: rgba(255, 255, 255, 0.6)};
+
+
+
